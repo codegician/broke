@@ -1,0 +1,223 @@
+/*
+RESET
+http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=========================================
+General STYLISTICS
+==========================================*/
+body {
+  background-color: #000;
+  color: #FFF
+}
+
+h4 {
+  color: #ee7600;
+  font: 20px serif;
+}
+
+p {
+  font: 14px serif;
+}
+/*============================================
+Nitty Gritty
+============================================*/
+
+.nav-bar {
+  background-color: #2f4f4f;
+  height: 25px;
+  padding-top:10px;
+  font: 16px helvetica, sans-serif;
+  font-weight: 600;
+  color: grey;
+  /*padding-bottom: 5px;*/
+}
+
+li {
+  display: inline;
+  /*border-right: 2px;*/
+  /*border-color: #FFF;*/
+  /*border-style: solid;*/
+  margin-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+li:nth-child(even) {
+  padding: 0;
+  margin: 0;
+}
+
+li:nth-child(odd) {
+  padding: 5px;
+  margin: 0;
+
+}
+
+li:nth-child(1) {
+  margin-left: 20px;
+}
+
+li:hover{
+  color: white;
+}
+
+.main_pic {
+  border-bottom: 5px;
+  border-style: solid;
+  border-color: #8D8989;
+}
+img {
+  display: inline-block;
+}
+
+#phone {
+  float: right;
+  padding-top: 20px;
+  padding-right: 15px;
+  font-family: helvetica, sans-serif;
+}
+/*aside {*/
+  /*background-color: #474141;*/
+/*}*/
+.row-1 {
+  display: inline;
+  width: 20%;
+  margin: 2%;
+  float: left;
+}
+
+.icon {
+  float:left;
+  padding-bottom: 25px;
+}
+
+.article {
+  float: left;
+  width: 68%;
+  height: 100%;
+  margin-top: 20px;
+  padding: 50px 30px;
+  font-family: helvetica, sans-serif;
+}
+
+.filler-txt {
+  font-family: helvetica, sans-serif;
+  font-size: 10px;
+}
+h2 {
+  font-size: 26px;
+}
+
+.buy-now{
+  float: right;
+  width: 20%;
+  height: 100%;
+  margin-top: 20px;
+  padding: 50px 30px;
+  /*margin-bottom: 50px;*/
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #FF8300;
+  border: 2px solid #D3D3D3;
+  color: #FFF;
+  margin-bottom: 50px;
+}
+
+.row-2 {
+  padding: 50px;
+}
+
+.row-3 {
+  display: inline;
+  width: 20%;
+  margin: 2%;
+  float: left;
+}
+
+.portfolio {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#footer-1 {
+  float: left;
+  /*width: 20%;*/
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+#footer-2 {
+  float: right;
+  color: #ee7600;
+  font-style: italic;
+  margin-right: 35px;
+  padding-right: 80px;
+}
+
+.footer {
+  clear: both;
+}
+
+.portfolio-img {
+  padding: 1px;
+  border: 2px solid #8D8989;
+}
+
+#top {
+  display: block;
+  float: right;
+  padding-right: 40px;
+  color: #d3d3d3;
+  font-size: 12px;
+}
